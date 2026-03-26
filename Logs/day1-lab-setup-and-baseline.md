@@ -1,8 +1,8 @@
-# Day 1 — Lab Setup & Baseline Understanding
+# Day 1 — Lab Setup & Foundational Understanding
 
 ## Objective
 
-To set up a controlled lab environment and gain foundational understanding of system behavior, networking, and port states.
+To set up a controlled lab environment and develop a foundational understanding of system behavior, networking, and port states.
 
 ---
 
@@ -10,27 +10,28 @@ To set up a controlled lab environment and gain foundational understanding of sy
 
 - Installed and configured VirtualBox
 - Deployed Kali Linux virtual machine
-- Verified internet connectivity within VM
-- Explored basic Linux environment and terminal usage
+- Verified internet connectivity within the VM
+- Explored basic Linux terminal usage
 - Identified network interfaces and IP address using `ip a`
-- Understood difference between loopback (127.0.0.1) and network interface
-- Performed initial Nmap scan on localhost (127.0.0.1)
-- Performed scan using assigned IP address
+- Understood the role of loopback interface (127.0.0.1)
+- Differentiated between local and network-based communication
+- Introduced basic concept of ports and services
+- Performed an initial scan to observe system exposure
 
 ---
 
 ## Observation
 
-- Loopback interface (127.0.0.1) represents internal system communication
-- Network interface IP is assigned via NAT (VirtualBox)
-- All scanned ports were closed, indicating no active listening services
-- System is in a baseline state with no exposed services
+- Loopback address (127.0.0.1) represents internal system communication
+- Network interface is assigned an IP via NAT (VirtualBox)
+- No services were actively listening on scanned ports
+- System is in a baseline state with no external exposure
 
 ---
 
 ## Learning
 
-- Difference between local and network-based scanning
+- Relationship between interfaces, IP addresses, and communication
 - Concept of ports and their states (open, closed, filtered)
-- Role of network interfaces in communication
-- Importance of establishing a baseline before further testing
+- Difference between local (loopback) and network interface traffic
+- Importance of establishing a baseline before further analysis
