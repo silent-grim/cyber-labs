@@ -30,15 +30,17 @@ This repository documents my hands-on cybersecurity learning journey through bui
 
 ---
 
-## Progress
+## Progress Summary
 
-### Day 1
+- Lab environment successfully set up
+- Network connectivity verified
+- Initial system scan performed
 
-- Set up VirtualBox environment
-- Installed Kali Linux VM
-- Verified networking
-- Performed initial Nmap scan on localhost
+---
 
-### Observation
+## Roadmap
 
-All scanned ports were closed, indicating no active listening services on the system.
+- Network traffic analysis
+- Target machine deployment
+- Network scanning and enumeration
+- Basic attack simulation and observation
